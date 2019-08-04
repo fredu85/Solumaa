@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9199271969391281782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1701986555335137732, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_Name
+      value: ReflectShieldProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247426832791348263, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: description
+      value: Shield that deflects 2 hits
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: AbilityName
+      value: Reflect Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: cbb5e71b4bf9f844a852c4473e2667af,
+        type: 3}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: Cost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: ShieldStationary
+      value: 
+      objectReference: {fileID: 8690941091262109458, guid: 4679348d685e2dd42adc989d38201561,
+        type: 3}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: Pool
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b317960b262e5248a6cfb02abc6b0c8,
+        type: 2}
+    - target: {fileID: 7188808686800060716, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5524540692230153454, guid: 98ed4d51a506d6a4cb6d1c504fd37626,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20c3b4ba03e8af142ab0e755125b91b8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98ed4d51a506d6a4cb6d1c504fd37626, type: 3}

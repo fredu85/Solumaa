@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8466096476530376822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690941091262109458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a5c87c58c5b2a4e8816ea352048803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  sender: {fileID: 0}
+  team: -1
+  sSender: Unknown
+  Manager: {fileID: 0}
+  objectPool: {fileID: 11400000, guid: 363ee6e118da65e459398f99bfd688ff, type: 2}
+  Pool: {fileID: 11400000, guid: b25e5c77388b8f64d8225d90cff6ceb5, type: 2}
+  TravelPath: {fileID: 0}
+  Cost: 200
+  ready: 0
+  damage: 0
+  heal: 0
+  description: Shield that deflects 2 hits
+  AbilityName: Small Reflective Shield
+  picture: {fileID: 21300000, guid: cbb5e71b4bf9f844a852c4473e2667af, type: 3}
+  bShowTravelPath: 0
+  shadow: {fileID: 0}
+  _AbilityInt: 0
+  Type: 1
+  PayMethod: 0
+  TargetType: 0
+  Players: {fileID: 11400000, guid: bfb9b6cc851b98f48b8307948c411bd6, type: 2}
+  AbsorbAmount: 2
+  Visual: {fileID: 1017711258116882734}
+  VisualColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1001 &6942206507972026127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1786733786786285597, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_Name
+      value: ReflectShield
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576833666735517561, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853749700664039156, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: description
+      value: Shield that deflects 2 hits
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853749700664039156, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: AbilityName
+      value: Small Reflective Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853749700664039156, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: cbb5e71b4bf9f844a852c4473e2667af,
+        type: 3}
+    - target: {fileID: 4853749700664039156, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: Pool
+      value: 
+      objectReference: {fileID: 11400000, guid: b25e5c77388b8f64d8225d90cff6ceb5,
+        type: 2}
+    - target: {fileID: 228066119697535989, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 228066119697535989, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20c3b4ba03e8af142ab0e755125b91b8, type: 2}
+    - target: {fileID: 228066119697535989, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20c3b4ba03e8af142ab0e755125b91b8, type: 2}
+    m_RemovedComponents:
+    - {fileID: 4853749700664039156, guid: e58f5ec61fd903f4c8b10efdb4de4575, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e58f5ec61fd903f4c8b10efdb4de4575, type: 3}
+--- !u!1 &8690941091262109458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1786733786786285597, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+    type: 3}
+  m_PrefabInstance: {fileID: 6942206507972026127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1017711258116882734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7946617996094135841, guid: e58f5ec61fd903f4c8b10efdb4de4575,
+    type: 3}
+  m_PrefabInstance: {fileID: 6942206507972026127}
+  m_PrefabAsset: {fileID: 0}
